@@ -1,0 +1,90 @@
+
+:root {
+    --color-web-white: hsl(204, 33%, 97%);
+    --color-web-dark:  hsl(240, 100%, 10%);
+    --color-web-dull:  hsl(353, 7%, 24%);
+}
+
+:root .warm {
+    --color-accent-1: hsl(330, 100%, 60%);
+    --color-accent-2: hsl(340, 100%, 70%);
+    --color-accent-3: hsl(45, 100%, 60%);
+}
+
+:root .cool {
+    --color-accent-1: hsl(215, 75%, 27%);
+    --color-accent-2: hsl(265, 29%, 58%);
+    --color-accent-3: hsl(318, 45%, 58%);
+}
+
+html {
+    display: block;
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+body, main {
+    display: flow-root;
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+}
+
+main {
+    font-family: Roboto, sans-serif;
+    background-color: var(--color-web-white);
+    color: var(--color-accent-1);
+}
+
+a {
+	color: rgb(0,100,200);
+    text-decoration: unset;
+}
+
+a:hover {
+    text-decoration: unset;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
