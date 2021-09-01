@@ -8,7 +8,7 @@
     "startClient": "npm run build && node code/Server/src/serveClient.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "build-clean": "node .compile/deleteFolder build",
-    "build-static": "node .compile/copyFolder code/Client/Static build",
+    "build-static": "node .compile/copyFolder code/Client/static build",
     "build-js": "rollup -c",
     "build": "npm run build-clean && npm run build-static && npm run build-js"
   },
