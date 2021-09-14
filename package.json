@@ -19,7 +19,6 @@
     "@rollup/plugin-commonjs": "17.1.0",
     "@rollup/plugin-node-resolve": "11.2.0",
     "jest": "26.6.3",
-    "page": "^1.11.6",
     "rollup": "2.41.4",
     "rollup-plugin-css-only": "3.1.0",
     "rollup-plugin-svelte": "7.1.0",
@@ -31,7 +30,7 @@
   "dependencies": {
     "express": "4.17.1",
     "helmet": "^4.4.1",
-    "node-fetch": "^2.6.1"
+    "simple-cookie": "^1.0.13"
   },
   "repository": {
     "type": "git",
